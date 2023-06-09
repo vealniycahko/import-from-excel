@@ -1,12 +1,12 @@
 import psycopg2
 
-SPREADSHEET_PATH = '/home/vealniycahko/STUDY/Code/excel_parsing/testing.xlsx'
+SPREADSHEET_PATH = ''
 
 def get_pg_connection():
-    conn = psycopg2.connect(host='127.0.0.1',
-                            port='5454',
-                            database='postgres',
-                            user='postgres',
-                            password='postgres')
+    conn = psycopg2.connect(host='',
+                            port='',
+                            database='',
+                            user='',
+                            password='')
     conn.autocommit = True
     return conn
